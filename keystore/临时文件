@@ -1,0 +1,64 @@
+public class com.owoh.natives.BaseGLNative {
+  public static final int NATIVE_SENCE_CAMERA;
+    descriptor: I
+  public static final int NATIVE_SENCE_PICTURE;
+    descriptor: I
+  public static boolean isStop;
+    descriptor: Z
+  public com.owoh.natives.BaseGLNative();
+    descriptor: ()V
+
+  public static native void initAssetManager(android.content.res.AssetManager, int);
+    descriptor: (Landroid/content/res/AssetManager;I)V
+
+  public static native android.graphics.SurfaceTexture getSurfaceTexture();
+    descriptor: ()Landroid/graphics/SurfaceTexture;
+
+  public static native void onBeforeSurfaceCreated(java.lang.Object);
+    descriptor: (Ljava/lang/Object;)V
+
+  public static native void onSurfaceCreated();
+    descriptor: ()V
+
+  public static native void onSurfaceChanged(int, int);
+    descriptor: (II)V
+
+  public static native void onDrawFrame(byte[], int, int);
+    descriptor: ([BII)V
+
+  public static native void onDrawFrameBefore(java.lang.Object);
+    descriptor: (Ljava/lang/Object;)V
+
+  public static native void releaseNative(int);
+    descriptor: (I)V
+
+  public static native void onChangeFileter(int, int, int, int, int);
+    descriptor: (IIIII)V
+
+  public static native void onChangeVSFS(java.lang.String, java.lang.String);
+    descriptor: (Ljava/lang/String;Ljava/lang/String;)V
+
+  public static native void onChangeShape(int, int);
+    descriptor: (II)V
+
+  public static native void onChangeBgColor(float, float, float, float);
+    descriptor: (FFFF)V
+
+  public static native void onChangeShapeSize(int, int);
+    descriptor: (II)V
+
+  public static native void onChangeShapeCount(int);
+    descriptor: (I)V
+
+  public static native void onChangeFileterZoom(int, int);
+    descriptor: (II)V
+
+  public static native void addTextEffect(android.graphics.Bitmap);
+    descriptor: (Landroid/graphics/Bitmap;)V
+
+  static {};
+    descriptor: ()V
+}
+
+
+

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ShutterView">
+        <attr name="outer_oval_color" format="color" />
+        <attr name="iner_oval_color" format="color" />
+        <attr name="outer_oval_radius" format="dimension" />
+        <attr name="outer_oval_width" format="dimension" />
+        <attr name="iner_oval_radius" format="dimension" />
+        <attr name="AnimDuration" format="dimension" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <!-- 快门颜色 -->
+    <color name="shutter_gray_dark">#EE2A2A2A</color>
+    <color name="shutter_gray_light">#AA696969</color>
+    <color name="shutter_blue">#3394EC</color>
+    <color name="shutter_blue_alpha">#223394EC</color>
+    <color name="shutter_green">#90EE90</color>
+    <color name="white">#FFFFFF</color>                 <!--白色 -->
+    <color name="red">#FF0000</color>                   <!--红色 -->
+
+</resources>

@@ -1,0 +1,23 @@
+package com.rrtoyewx.mediaexactorandmediamuxer.combine;
+
+import java.io.IOException;
+
+/**
+ * @author Harrison 唐广森
+ * @description:
+ * @date :2019/4/22 17:02
+ */
+public interface IAudioVideo {
+    //初始化
+    void init() throws IOException;
+
+    /**
+     * 合并前做些准备
+     */
+    void startCombinePrepare();
+
+    //开始合并
+    void startCombine();
+
+    void endCombine();
+}
